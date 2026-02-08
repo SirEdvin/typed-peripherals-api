@@ -1,9 +1,9 @@
 {
     "name": "@siredvin/typed-peripheral-api",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Typed peripheral library for my CC:T related projects",
     "files": [
-        "./*.ts",
+        "./*.d.ts",
         "./*.lua"
     ],
     "publishConfig": {
