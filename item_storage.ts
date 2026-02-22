@@ -24,8 +24,8 @@ export declare interface ItemStorageAPI extends IPeripheral {
         detailed: false, 
         query?: LuaTable<string, any> | object
     ): LuaTable<number, ShortItemDetail>;
-    pushItem(toName: string, itemQuery?: string, limit?: number): number;
-    pullItem(fromName: string, itemQuery?: string, limit?: number): number;
+    pushItem(toName: string, itemQuery?: string, limit?: number, to_slot?: number): number;
+    pullItem(fromName: string, itemQuery?: string, limit?: number, to_slot?: number): number;
 }
 
 export const itemStoragePeripheralProvider =
